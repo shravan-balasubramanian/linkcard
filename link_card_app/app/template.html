@@ -1,0 +1,105 @@
+<html>
+
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://static.freshdev.io/fdk/2.0/assets/fresh_client.js"></script>
+  <script src="app.js"></script>
+  <script src="indexinput.js"></script>
+  <script src="indexbutton.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="https://static.freshdev.io/fdk/2.0/assets/freshdesk.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <div>
+    <div>
+      <center>
+
+        <div>
+          <ul style="list-style:none">
+            <h1>Link Card Maker</h1>
+            <li>
+              <fw-input type="text" name="url" id="url" style="text-align:center" placeholder="Enter your url here">
+            </li> <br>
+            <li>
+              <h2>Choose the card template</h2>
+              <ul style="list-style:none">
+                <li> <input type="radio" name="template" id="template1" value="template1">
+                  <span>
+                    <div name="linkcard" id="linkcard" class="gpdiv">
+                      <div class="pdiv">
+                        <img src="cat.jpeg" width="30%" height=70px>
+                        <div class=cdiv>
+                          <h3>SMELLY CAT</h3>
+                          <p style="margin-bottom:0px;">Smelly Cat..smelly cat.What are they feeding you!?</p>
+                        </div>
+                      </div>
+                    </div>
+                  </span>
+
+                <li> <input type="radio" name="template" id="template2" value="template2">
+                  <span>
+                    <div class="gpdiv" style="border-radius : 25px;">
+                      <div class="pdiv">
+                        <img src="cat.jpeg" width="30%" height=70px>
+                        <div class="cdiv">
+                          <h3>SMELLY CAT</h3>
+                          <p style="margin-bottom:0px;">Smelly Cat..smelly cat. What are they feeding you!?</p>
+                        </div>
+                      </div>
+                    </div>
+                  </span>
+              </ul>
+            </li><br>
+          </ul <div>
+          <h2>Choose a color for the link card</h2>
+
+          <label class="azure">
+            <input type="radio" name="color" id="azure" value="azure">
+            <div class="layer"></div>
+            <div class="colorButton"><span></span></div>
+          </label>
+
+          <label class="white">
+            <input type="radio" name="color" id="white" value="white">
+            <div class="layer"></div>
+            <div class="colorButton"><span></span></div>
+          </label>
+
+          <label class="khaki">
+            <input type="radio" name="color" id="khaki" value="khaki">
+            <div class="layer"></div>
+            <div class="colorButton"><span></span></div>
+          </label>
+
+          <label class="burlywood">
+            <input type="radio" name="color" id="burlywood" value="burlywood">
+            <div class="layer"></div>
+            <div class="colorButton"><span></span></div>
+          </label>
+
+          <label class="palegreen">
+            <input type="radio" name="color" id="palegreen" value="palegreen">
+            <div class="layer"></div>
+            <div class="colorButton"><span></span></div>
+          </label>
+
+          <label class="skyblue">
+            <input type="radio" name="color" id="skyblue" value="skyblue">
+            <div class="layer"></div>
+            <div class="colorButton"><span></span></div>
+          </label>
+        </div>
+
+        <center>
+          <button id="urlButton">SUBMIT</button>
+        </center>
+
+
+    </div>
+    </center>
+</body>
+
+</html>
